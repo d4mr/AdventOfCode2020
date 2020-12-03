@@ -10,7 +10,7 @@ input.forEach(row => {
     roadMap.push(row.split(""));
 });
 
-console.log(roadMap);
+// console.log(roadMap);
 
 let xMax = roadMap[0].length;
 
@@ -28,8 +28,6 @@ function findTrees(r,d){
 }
 
 let answerOne = findTrees(3,1);
-let answerOne1 = findTrees(3,1);
-
 let answerTwo = findTrees(1,1) * findTrees(3,1) * findTrees(5,1) * findTrees(7,1) * findTrees(1,2);
 
-console.log({answerTwo, answerOne, answerOne1});
+console.log({answerTwo, answerOne});
