@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { constants } = require("http2");
 const stdinBuffer = fs.readFileSync(0);
 
 const input = stdinBuffer.toString().split("\n");
